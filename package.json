@@ -9,9 +9,18 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "axios": "^1.19.0",
+    "formik": "^2.4.9",
+    "ldrs": "^1.1.9",
+    "lucide-react": "^1.33.0",
+    "motion": "^13.1.0",
     "next": "16.3.1",
+    "preline": "^4.2.0",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-hot-toast": "^2.6.0",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
