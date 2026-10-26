@@ -18,7 +18,7 @@ const Navbar = () => {
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
           </svg>
-          <span className="ml-3 text-xl text-gray-100">Tailblocks</span>
+          <span className="ml-3 text-xl text-gray-100">UI Components</span>
         </a>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <Link className="mr-5 text-gray-400 hover:text-[#FFB454]" href='/'>Home</Link>
@@ -27,8 +27,7 @@ const Navbar = () => {
           <Link className="mr-5 text-gray-400 hover:text-[#FFB454]" href='/browse'>Elements</Link>
           {/* <Link className="mr-5 text-gray-400 hover:text-[#FFB454]" href='/Todoapp'></Link> */}
           {/* <Link className="mr-5 text-gray-400 hover:text-[#FFB454]" href='/portfolio'>Portfolio</Link> */}
-
-          {/* Link tag :- used to link pg without re-loading and the first letter should be upper can't be written without
+           {/* Link tag :- used to link pg without re-loading and the first letter should be upper can't be written without
            */}
         </nav>
         <Link href='/create' className="mr-5 text-gray-400 hover:text-[#FFB454]">
